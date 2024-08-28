@@ -3,7 +3,9 @@
 #include "b.h"
 
 int main(){
+    int retVal;
     printf("main fucntion\n");
-    a(1,2);
+    retVal = a(1,2);
+    printf("retVal : %d\n", retVal);
     b();
 }
