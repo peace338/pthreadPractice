@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "a.h"
-#include "foo.h"
-#include "bar.h"
+#include "add.h"
+#include "multiply.h"
 
-int a(){
-    printf("This is function a()\n");
-    foo();
-    bar();
+int a(int x, int y){
+    printf("start function a()\n");
+    return add(x, y) + multiply(x, y);
+    
 }

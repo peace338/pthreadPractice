@@ -4,6 +4,6 @@
 
 int main(){
     printf("main fucntion\n");
-    a();
+    a(1,2);
     b();
 }
